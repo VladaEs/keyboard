@@ -1,0 +1,112 @@
+body {
+    background: url('https://source.unsplash.com/1600x900/?landscape');
+
+
+
+}
+.input_wrapper {
+    width: 200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    top:180px;
+    position:relative;
+    left:-50px;
+}
+.input {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FAEBD7;
+    color: #696969;
+    font-weight: 600;
+    font-size: 30px;
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+
+    
+}
+.input::placeholder{ 
+    color:grey; 
+    font-size: 15px;
+    padding:5px;
+}
+
+
+
+.keyboard {
+    top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(90deg, rgba(100,103,100,0.8578781854538691) 0%, rgba(0,0,125,1) 100%);
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    width: 772px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.line::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.key {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin: 2px;
+    padding: 4px;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+}
+.key:hover {
+    background-color: #20B2AA;
+    color: #FFD200;
+    }
+.backspace{ 
+    width: 76px;
+}
+.container{ 
+    width:60px;
+}
+.tab {
+    width: 90px;
+}
+.enter{
+    width: 80px;   
+
+}
+.caps {
+    width: 70px;
+}
+
+.shift{
+    width: 110px;
+}
+.shift_little{
+    width:94px;
+}
+.window{ 
+    padding:5px;
+    width: 25px;
+    height: 25px;
+}
+.space{ 
+    width: 330px;
+}
+.lctrl, .rctrl{
+    width: 65px;    
+}
+.lambda{
+    width:20px
+}
+.active {
+    border: 1px solid red;
+    background-color: #20B2AA;
+    color: #FFD200;
+}
